@@ -1,6 +1,8 @@
-# USB HID host for keyboard on the STM32F429I-DISC1 microcontroller
+# USB HID host for keyboard (and mouse) on the STM32F429I-DISC1 microcontroller
 
-**Toolchain:** arm-none-eabi-gcc, ST-LINK, OpenOCD on Linux
+**Toolchain:** GNU Make, arm-none-eabi-gcc, ST-LINK, OpenOCD on Linux
+
+**Note:** This program only works for [legacy USB HID boot devices](http://www.rennes.supelec.fr/ren/fi/elec/docs/usb/hid1_11.pdf), (Appendix F)
 
 ## Usage:
 - `git clone <this repo>`
